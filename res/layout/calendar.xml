@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" 
+android:layout_height="fill_parent" 
+android:layout_width="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"> 
+ 
+ -<LinearLayout android:layout_height="wrap_content"
+  android:layout_width="fill_parent" 
+  android:gravity="center_horizontal">
+  
+   <Button 
+       android:layout_height="fill_parent" 
+       android:layout_width="50dp" 
+       android:id="@+id/prevMonth"/> 
+       
+   <Button 
+       android:layout_height="fill_parent" 
+       android:layout_width="120dp" 
+       android:gravity="center_horizontal" 
+       android:id="@+id/month"/> 
+           
+   <Button
+        android:layout_height="fill_parent" 
+        android:layout_width="50dp" 
+        android:id="@+id/nextMonth"/>
+            
+   </LinearLayout>
+             
+    <GridView 
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/calendar1" 
+        android:numColumns="7"
+        android:layout_margin="0dp">
+        
+    </GridView> 
+            
+    </LinearLayout>
